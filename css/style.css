@@ -81,23 +81,7 @@
             column-count: 2;
             column-gap: 2;
         }
-        .midicon{
-            display: flex;
-            width: 100vw;
-            justify-content: space-between;
-        }
-        #hoverli{
-            visibility: hidden;
-        }
-        #liicon:hover ~ #hoverli{
-                visibility: visible;
-        }
-        #hoverig{
-        visibility: hidden;
-        }
-        #igicon:hover ~ #hoverig{
-            visibility: visible;
-        }
+        
         a{
             color: rgb(0, 89, 45);
         }
