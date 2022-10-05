@@ -6,16 +6,13 @@
             position: static;
             text-align: left;
         }
-        #divpic{
-            width: 400px; height: 400px;
-            position: static;
-            background: url("https://github.com/chutauruk/chutauru/blob/master/ProfileCYPH.jpg"); border-radius : 50%;
-        }
         .center {
+            width: 300px; height: 500px;
             display: block;
             margin-left: auto;
             margin-right: auto;
-            width: 50%;
+            width: 65%;
+            border-radius: 40%;
         }
         #div2{
             max-width: 600px;
@@ -32,7 +29,7 @@
         }
         #div4{
             display: flex;
-            max-width: 500px;
+            max-width: 600px;
             margin: 0 auto;
             background-color: rgba(179, 182, 184, 0.466);
             position: static;
@@ -44,7 +41,7 @@
             background-color: rgba(179, 182, 184, 0.466);
             position: static;
         }
-        #div1, #div2, #div3, #div4,#div5 {
+        #div1, #divpic, #div2, #div3, #div4,#div5 {
             border: solid;
         }
         body{
